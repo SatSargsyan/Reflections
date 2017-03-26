@@ -28,7 +28,7 @@ mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 <ul type=circle>
 <li>When you have to access attributes in your program's metadata. See the topic [Accessing Attributes With Reflection](https://msdn.microsoft.com/en-us/library/z919e8tw(v=vs.90).aspx).(It allows view attribute information at runtime.)
 <li>For examining and instantiating types in an assembly.(It allows examining various types in an assembly and instantiate these types.)
-<li>For building new types at runtime. Use classes in [System.Reflection.Emit](https://msdn.microsoft.com/en-us/library/system.reflection.emit(v=vs.90).aspx)</a>. (It allows creating new types at runtime and then performs some tasks using those types.)
+<li>For building new types at runtime. Use classes in [System.Reflection.Emit](https://msdn.microsoft.com/en-us/library/system.reflection.emit(v=vs.90).aspx). (It allows creating new types at runtime and then performs some tasks using those types.)
 <li>For performing late binding, accessing methods on types created at run time. See the topic<a href=Dynamically Loading and Using Types> Dynamically Loading and Using Types</a>.(It allows late binding to methods and properties)
 </ul>
 
