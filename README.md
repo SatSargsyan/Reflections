@@ -1,6 +1,6 @@
 # Reflections
 
-### <a href=https://msdn.microsoft.com/en-us/library/ms173183(v=vs.90).aspx>Reflection</a> provides objects (of type Type) that describe assemblies, modules and types. You can use reflection to dynamically create an instance of a type, bind the type to an existing object, or get the type from an existing object and invoke its methods or access its fields and properties. If you are using attributes in your code, reflection enables you to access them. 
+### <a href=https://msdn.microsoft.com/en-us/library/ms173183(v=vs.90).aspx> Reflection </a> provides objects (of type Type) that describe assemblies, modules and types. You can use reflection to dynamically create an instance of a type, bind the type to an existing object, or get the type from an existing object and invoke its methods or access its fields and properties. If you are using attributes in your code, reflection enables you to access them. 
 
 #### Here's a simple example of reflection using the static method GetType - inherited by all types from the Object base class - to obtain the type of a variable:
 ```C#
@@ -21,7 +21,8 @@ System.Console.WriteLine(info);
 #### The output is:
 mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 
-### The C# keywords protected and internal have no meaning in IL and are not used in the reflection APIs. The corresponding terms in IL are Family and Assembly. To identify an<b> internal</b> method using reflection, use the<a href=https://msdn.microsoft.com/en-us/library/system.reflection.methodbase.isassembly(v=vs.90).aspx><b> IsAssembly</b></a> property. To identify a <b>protected internal</b> method, use the<a href=https://msdn.microsoft.com/en-us/library/system.reflection.methodbase.isfamilyorassembly(v=vs.90).aspx> <b>IsFamilyOrAssembly</b></a>.
+### The C# keywords protected and internal have no meaning in IL and are not used in the reflection APIs. The corresponding terms in IL are Family and Assembly. To identify an<b> internal</b> method using reflection, use the
+<a href=https://msdn.microsoft.com/en-us/library/system.reflection.methodbase.isassembly(v=vs.90).aspx><b> IsAssembly</b></a> property. To identify a <b>protected internal</b> method, use the<a href=https://msdn.microsoft.com/en-us/library/system.reflection.methodbase.isfamilyorassembly(v=vs.90).aspx> <b>IsFamilyOrAssembly</b></a>.
 
 #### Reflection is useful in the following situations:
 <ul type=circle>
